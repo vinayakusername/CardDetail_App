@@ -10,7 +10,8 @@ import 'package:flutter/cupertino.dart';
 //to access the members of Provider1 class.
 class Provider1 extends ChangeNotifier
 {
-    // Provider1.returnFirstValue() is named constructor , here Provider1 is class 
+    // Provider1.returnFirstValue() is named constructor and this method will be called on press of btn1,
+    // here Provider1 is class 
     //and returnFirstValue is constructor name.
 
     // Provider1.returnFirstValue(this.object_of_bloc_class){
@@ -19,7 +20,8 @@ class Provider1 extends ChangeNotifier
 
 
 
-      // Provider1.returnLastValue() is named constructor , here Provider1 is class 
+      // Provider1.returnLastValue() is named constructor and this method will be called on press of btn2 , 
+      //here Provider1 is class 
     //and returnLastValue is constructor name.
 
     // Provider1.returnLastValue(this.object_of_bloc_class){
